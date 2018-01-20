@@ -10,12 +10,15 @@ fields
 
 - text: text of the tweet, potentially truncated
 - id: id of the tweet
-- retweeted: whether or not it was retweeted
-- favorited: whether or not it was favorited
 - favorite_count: number of favorites
 - is_quote_status: if it was a quote
 - retweet_count: how many retweets
 - username: screen name of the user
+- followers: number of followers of the user
+- verified: whether or not the user is verified
+- description: user's description in their profile
+- user_location: user_location
+- create_at: timestamp
 
 ### houwx.json
 this is the raw data, which contains many more fields, but is also a lot messier
