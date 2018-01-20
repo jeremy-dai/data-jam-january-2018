@@ -19,7 +19,18 @@ fields
 - user_location: user_location
 - create_at: timestamp
 
+### quotes.csv
+- id: id of the quoted tweet
+- original_tweet: original tweet text
+- original_tweet_id: original tweet id
+- original_user: the user who first posted the tweet
+- quoted_text: the text that was "added" in conversation
 
+### retweets.csv
+- rt_id: id of the retweet
+- original_tweet: original tweet text
+- original_tweet_id: original tweet id
+- original_user: the user who first posted the tweet
 
 ### houwx.json
 this is the raw data, which contains many more fields, but is also a lot messier
