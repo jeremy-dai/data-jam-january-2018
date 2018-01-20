@@ -22,3 +22,5 @@ fields
 
 ### houwx.json
 this is the raw data, which contains many more fields, but is also a lot messier
+
+You can read more about the JSON data structure here in the [Twitter API](https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/intro-to-tweet-json).
